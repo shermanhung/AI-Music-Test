@@ -26,7 +26,7 @@ repository               : "academicpages/academicpages.github.io" # "shermanhun
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ShermanHung_Picture4.jpeg"
+  avatar           : "ShermanHung_Picture4.png"
   name             : "Sherman Hung"
   pronouns         : # example: "she/her"  
   bio              : "AI-Driven System for Drums"
