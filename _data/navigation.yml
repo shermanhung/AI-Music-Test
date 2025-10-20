@@ -16,7 +16,8 @@ main:
   #   url: /teaching/    
 
   - title: "CV"
-    url: /cv/
+    url: /files/shermanhung_resume_phd.pdf
+    # url: /cv/
   
   - title: "Portfolio"
     url: /portfolio/
@@ -32,5 +33,5 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
