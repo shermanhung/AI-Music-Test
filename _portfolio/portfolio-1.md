@@ -1,6 +1,6 @@
 ---
 title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><video src='https://github.com/shermanhung/shermanhung.github.io/blob/6801595c90a460225acd7af6ba54c1b4f26d2915/files/5.mp4' width=180></video>" 
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>" 
 collection: portfolio
 ---
 
@@ -8,8 +8,8 @@ This is an item in your portfolio. It can be have images or nice text. If you na
 
 
 
-https://github.com/user-attachments/assets/bcc71aee-d2ea-4bb4-a81c-61a902311459
+<video>
+<source src="https://github.com/shermanhung/shermanhung.github.io/blob/6801595c90a460225acd7af6ba54c1b4f26d2915/files/5.mp4" type="video/mp4">
+</video>
 
-
-
-# <img src='/images/500x300.png'>
+#
