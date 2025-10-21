@@ -5,11 +5,6 @@ collection: portfolio
 ---
 
 Midnight Song
-[Midnight Song.mp3](https://github.com/user-attachments/files/23012395/Midnight.Song.mp3)
-
-
-
-
 <video>
 <source src="https://github.com/shermanhung/shermanhung.github.io/blob/4599c408c3985ee78d24ec9cea7e82428d8722b3/files/Midnight.Song.mp4" type="video/mp4">
 </video>
