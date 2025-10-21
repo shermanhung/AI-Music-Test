@@ -7,3 +7,6 @@ collection: portfolio
 Midnight Song
 [Midnight Song.mp3](https://github.com/user-attachments/files/23012395/Midnight.Song.mp3)
 
+<video>
+<source src="https://github.com/user-attachments/files/23012395/Midnight.Song.mp3" type="video/mp3">
+</video>
