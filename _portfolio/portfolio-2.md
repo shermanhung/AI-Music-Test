@@ -6,8 +6,4 @@ collection: portfolio
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
 
-
-<video src="https://github.com/shermanhung/shermanhung.github.io/blob/f01336f1bad9d48ab3f1e215522156b5712b02e4/files/5.mp4" controls="controls" style="max-width: 730px;"></video>
-
-[![Test](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMmxehVGdyDw)](https://www.youtube.com/watch?v=MmxehVGdyDw)
-
+[![Live Performance](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DExHOc6mRcdE)](https://www.youtube.com/watch?v=ExHOc6mRcdE)
