@@ -1,6 +1,6 @@
 ---
 title: "Band Songs"
-excerpt: "Short description of portfolio item number 1<br/>" 
+excerpt: "Our self-composed songs blend the intensity of gothic metal with dark, introspective lyricism and driving grooves. Each track explores the tension between despair and hope, transforming shadows into moments of inspiration.<br/>" 
 collection: portfolio
 ---
 
