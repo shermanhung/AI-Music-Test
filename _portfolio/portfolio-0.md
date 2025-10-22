@@ -1,6 +1,6 @@
 ---
 title: "Band Songs"
-excerpt: "Our self-composed songs blend the intensity of gothic metal with dark, introspective lyricism and driving grooves. Each track explores the tension between despair and hope, transforming shadows into moments of inspiration.<br/>" 
+excerpt: "Fairy Lied is a gothic metal band that composes original works blending dark, introspective lyricism with groove-driven rhythmic energy. Our music explores the emotional interplay between despair and hope, seeking to transform intensity and darkness into a source of creative and expressive inspiration.<br/>" 
 collection: portfolio
 ---
 
