@@ -31,7 +31,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "AI-Driven System for Drums"
   location         : "Shanghai, China"
-  employer         : "University of Illinois at Urbana-Champaign <br/> Shanghai Jiao Tong University"
+  employer         : # "University of Illinois at Urbana-Champaign <br/> Shanghai Jiao Tong University"
   uri              : # URL
   email            : "shermanhung8230@gmail.com" 
 
