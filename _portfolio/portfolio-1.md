@@ -1,6 +1,6 @@
 ---
 title: "Band Songs"
-excerpt: "This folder contains all songs composed collectively by Fairy Lied's band members, with the drum parts written and arranged by me. Each piece is accompanied by its corresponding audio recording and PDF drum transcription.<br/>" 
+excerpt: "This folder contains songs composed collectively by Fairy Lied's band members, with the drum parts written and arranged by me. Each piece is accompanied by its corresponding audio recording and PDF drum transcription.<br/>" 
 collection: portfolio
 ---
 
