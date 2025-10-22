@@ -9,6 +9,8 @@ Midnight Song
 <source src="https://github.com/user-attachments/assets/8ae5000f-11c4-4d8a-9995-172beb0b4b77">
 </video>
 
+[I'm an inline-style link](https://academicpages.github.io/files/slides1.pdf)
+
 
 
 
