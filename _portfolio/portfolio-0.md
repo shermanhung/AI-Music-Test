@@ -1,6 +1,7 @@
 ---
 title: "Band Songs"
 excerpt: "Fairy Lied is a gothic metal band in which I serve as the drummer. The band creates original works that fuse dark, introspective lyricism with groove-driven rhythmic energy. Our music explores the emotional interplay between despair and hope, transforming intensity and darkness into channels of creative and expressive inspiration. <br/>
+
 This folder contains all songs composed collectively by the band members, with the drum parts written and arranged by me. Each piece is accompanied by its corresponding audio recording and PDF drum transcription." 
 collection: portfolio
 ---
