@@ -1,6 +1,6 @@
 ---
 title: "Band Rehersal Recordings"
-excerpt: "Short description of portfolio item number 1<br/>" 
+excerpt: "This folder contains video documentation of Fairy Lied’s band rehearsals. <br/>" 
 collection: portfolio
 ---
 
