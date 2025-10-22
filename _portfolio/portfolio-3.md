@@ -1,6 +1,6 @@
 ---
 title: "Drum Covers"
-excerpt: "Short description of portfolio item number 1<br/>" 
+excerpt: "This folder contains drum covers performed by me, primarily focused on progressive metal music.<br/>" 
 collection: portfolio
 ---
 
