@@ -1,5 +1,5 @@
 ---
-title: "Band Live Performance"
+title: "Band Live Performances"
 excerpt: "This folder contains video documentation of Fairy Lied’s live performances.<br/>" 
 collection: portfolio
 ---
