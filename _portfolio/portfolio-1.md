@@ -42,6 +42,8 @@ Midnight Song
 
 [Fairy Lied - 原蛇的诱惑 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91.pdf)
 
+[Fairy Lied - 原蛇的诱惑 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/8a8818ad160c61caa3badc6e386dff114857f156/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91_v7.gp)
+
 独角兽的梦
 
 [![Fairy Lied - 独角兽的梦](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DU7D8v7i_QrE)](https://www.youtube.com/watch?v=U7D8v7i_QrE)
