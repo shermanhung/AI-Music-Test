@@ -48,4 +48,6 @@ Midnight Song
 
 [Fairy Lied - 独角兽的梦 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E7%8B%AC%E8%A7%92%E5%85%BD%E7%9A%84%E6%A2%A6.pdf)
 
+[Fairy Lied - 独角兽的梦 - Drum Transcription]
+(file:///Users/shermanhung/Downloads/Midnight%20Song.pdf)
 
