@@ -4,8 +4,6 @@ excerpt: "This folder contains drum covers performed by me, primarily focused on
 collection: portfolio
 ---
 
-
-
 青梅 - AwakeMountains - Drum Cover
 
 This is a video recording of my drum cover of the song 青梅 by AwakeMountains.
