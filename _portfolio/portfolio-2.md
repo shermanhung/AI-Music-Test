@@ -4,6 +4,8 @@ excerpt: "This folder contains video documentation of Fairy Lied’s band rehear
 collection: portfolio
 ---
 
+Below are several short video snippets from Fairy Lied rehearsals between 2024 and 2025.
+
 Fairy Lied - Band Rehearsal - 20240820
 
 [![Fairy Lied - Band Rehearsal - 20240820](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dib3FgPobxAo)](https://www.youtube.com/watch?v=ib3FgPobxAo)
