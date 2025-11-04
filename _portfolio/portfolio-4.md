@@ -6,4 +6,10 @@ collection: portfolio
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
 
-[![Drum Cover](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxyTRr8o1yY)](https://www.youtube.com/watch?v=wxyTRr8o1yY)
+青梅 - AwakeMountains - Drum Cover
+[![青梅 - AwakeMountains - Drum Cover](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxyTRr8o1yY)](https://www.youtube.com/watch?v=wxyTRr8o1yY)
+
+
+[![Watch the video](https://img.youtube.com/vi/KGHjTAiIAo4/maxresdefault.jpg)](https://youtu.be/KGHjTAiIAo4)
+
+### [Wage War - Low (Metronome Version)](https://youtu.be/KGHjTAiIAo4)
