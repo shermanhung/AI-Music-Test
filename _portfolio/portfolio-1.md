@@ -12,8 +12,7 @@ My Way
 
 [Fairy Lied - My Way - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/0639fc883e3311f7783be5fcbc30cdb1dbdf7747/files/My%20Way.pdf)
 
-[Fairy Lied - My Way - Guitar Pro File]
-(https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/My%20Way.gp)
+[Fairy Lied - My Way - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/My%20Way.gp)
 
 Midnight Song
 
@@ -21,8 +20,7 @@ Midnight Song
 
 [Fairy Lied - Midnight Song - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/1f5d861c9d1cce3adbdc476983758b96c4c14f82/files/Midnight%20Song.pdf)
 
-[Fairy Lied - Midnight Song - Guitar Pro File]
-(https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/Midnight%20Song.gp)
+[Fairy Lied - Midnight Song - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/Midnight%20Song.gp)
 
 黑暗的光
 
@@ -30,8 +28,7 @@ Midnight Song
 
 [Fairy Lied - 黑暗的光 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%89.pdf)
 
-[Fairy Lied - 黑暗的光 - Guitar Pro File]
-(https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%89.gp)
+[Fairy Lied - 黑暗的光 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%89.gp)
 
 我看见黑暗中的你
 
@@ -39,8 +36,7 @@ Midnight Song
 
 [Fairy Lied - 我看见黑暗中的你 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E6%88%91%E7%9C%8B%E8%A7%81%E9%BB%91%E6%9A%97%E4%B8%AD%E7%9A%84%E4%BD%A0.pdf)
 
-[Fairy Lied - 我看见黑暗中的你 - Guitar Pro File]
-(https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%88%91%E7%9C%8B%E8%A7%81%E9%BB%91%E6%9A%97%E4%B8%AD%E7%9A%84%E4%BD%A0.gp)
+[Fairy Lied - 我看见黑暗中的你 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%88%91%E7%9C%8B%E8%A7%81%E9%BB%91%E6%9A%97%E4%B8%AD%E7%9A%84%E4%BD%A0.gp)
 
 旧日支配者的低语
 
@@ -48,8 +44,7 @@ Midnight Song
 
 [Fairy Lied - 旧日支配者的低语 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E6%97%A7%E6%97%A5%E6%94%AF%E9%85%8D%E8%80%85%E7%9A%84%E4%BD%8E%E8%AF%AD.pdf)
 
-[Fairy Lied - 旧日支配者的低语 - Guitar Pro File]
-(https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%97%A7%E6%97%A5%E6%94%AF%E9%85%8D%E8%80%85%E7%9A%84%E4%BD%8E%E8%AF%AD.gp)
+[Fairy Lied - 旧日支配者的低语 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%97%A7%E6%97%A5%E6%94%AF%E9%85%8D%E8%80%85%E7%9A%84%E4%BD%8E%E8%AF%AD.gp)
 
 原蛇的诱惑
 
