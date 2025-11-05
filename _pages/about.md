@@ -14,5 +14,3 @@ My research is driven by a personal passion as an active drummer. This hands-on 
 - Drum Transcription to convert audio into symbolic notation.
 - Drum Performance Analysis to quantify expressive nuances like timing and dynamics.
 - Drum Pattern Generation to produce human-like, stylistically coherent rhythms.
-
-#I am currently seeking a PhD position to advance this research, with the ultimate goal of developing AI-powered tools that empower musicians, enhance music education, and #contribute to the scientific understanding of musical expression.
