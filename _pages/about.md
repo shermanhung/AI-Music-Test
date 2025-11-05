@@ -21,4 +21,4 @@ Drum Pattern Generation to produce human-like, stylistically coherent rhythms.
 
 A key innovation is a generative feedback loop, where the system's own outputs are used to iteratively refine and improve the entire pipeline, creating a dynamic, self-improving AI system for music.
 
-I am currently seeking a PhD position to advance this research, with the ultimate goal of developing AI-powered tools that empower musicians, enhance music education, and contribute to the scientific understanding of musical expression.
+#I am currently seeking a PhD position to advance this research, with the ultimate goal of developing AI-powered tools that empower musicians, enhance music education, and #contribute to the scientific understanding of musical expression.
