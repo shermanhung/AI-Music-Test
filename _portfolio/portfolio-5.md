@@ -1,6 +1,6 @@
 ---
 title: "Audio Projects"
-excerpt: "This folder contains projects with code.<br/>" 
+excerpt: "This folder includes audio-related projects with detailed explanations of their objectives and code implementations.<br/>" 
 collection: portfolio
 ---
 
