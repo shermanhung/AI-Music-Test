@@ -55,7 +55,7 @@ The aboved approach involves two key technical challenges:
 ### 1.	How can we generate candidate intervals on the comparison wells?
 
 <img 
-  width="200" 
+  width="500" 
   height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
