@@ -13,8 +13,10 @@ Through this project, I gained extensive hands-on experience in time-series data
 ## Project Problem
 <figure>
   <img align='left' width="100" height="100" title="Figure 1" style="margin-right: 15px; margin-bottom: 10px" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
-  <figcaption style="text-align: center; margin-top: 5px;">Figure 1</figcaption>
+  
 </figure>
+
+<figcaption style="text-align: center; margin-top: 5px;">Figure 1</figcaption>
 
 
 
