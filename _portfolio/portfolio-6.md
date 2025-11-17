@@ -10,7 +10,7 @@ I served as the lead data scientist for a six-month collaborative research proje
 
 ## Project Problem
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/c315227edc3258023ee0c4e0396dcd18c161c6de/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" title="Figure 1 - Well-logging Curves" />
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/c315227edc3258023ee0c4e0396dcd18c161c6de/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" />
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
