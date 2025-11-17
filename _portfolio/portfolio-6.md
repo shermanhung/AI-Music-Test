@@ -33,7 +33,7 @@ The aboved approach involves two key technical challenges:
 
 ### 1.	How can we generate candidate intervals on the comparison wells?
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/ef753ac8bba0efda6f6e7100b2733f507dd09842/images/derivative%20function.png" align="left" width="200" height="300" title="Figure 4"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/ef753ac8bba0efda6f6e7100b2733f507dd09842/images/derivative%20function.png" align="left" width="200" height="350" title="Figure 4"/>
 
 To address the first challenge of generating candidate intervals on comparison wells, we applied an activation-function heuristic grounded in geological principles. The idea is straightforward: stratigraphic boundaries typically occur where one rock type transitions to another, causing abrupt changes in the subsurface’s physical properties. These changes are reflected in well-logging curves, where the largest shifts correspond to points with the highest derivatives. In other words, the stronger the change in the logging signal, the more likely it marks a true geological boundary.
 
