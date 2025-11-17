@@ -11,10 +11,15 @@ I served as the lead data scientist for a six-month collaborative research proje
 Through this project, I gained extensive hands-on experience in time-series data processing—skills that transfer directly to audio signal analysis in music. I also conducted in-depth research on time-series shapelet similarity algorithms, reviewing approximately 50–60 academic papers. This included running numerous modeling experiments using TensorFlow and scikit-learn, as well as adapting and extending open-source implementations from GitHub to refine model architectures — work very similar to what I expect to do in my graduate research.
 
 ## Project Problem
-<figure style="float: left; width: 150px; margin-right: 15px; margin-bottom: 10px; text-align: center;">
-  <img src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2" width="150" height="250" style="display: block; margin: 0 auto;" />
-  <figcaption style="margin-top: 5px;">Figure 1</figcaption>
-</figure>
+<img 
+  width="346" 
+  height="861" 
+  alt="well logging curves of a well" 
+  src="https://github.com/user-attachments/assets/bfea1b33-ccab-481e-9967-0d0c8d3057d1" 
+  style="margin-right: 15px; margin-bottom: 10px;" 
+/>
+
+
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series   signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
@@ -86,6 +91,10 @@ An ensemble of five networks is used because a single Inception model can have h
 Learning Shapelets is a time series classification method that learns the most discriminative subsequences—called shapelets—directly from the data. Since classes are often distinguished by short, characteristic patterns rather than the entire series, the distances from a time series to these learned shapelets serve as informative features for our XGBoost binary classifier.
 
 The method starts with initial shapelet candidates (often cluster centroids) and converts each time series into a feature vector by computing its minimum distance to each shapelet. These distance features are then passed to a simple classifier such as logistic regression. Both the shapelets and classifier weights are learned jointly using gradient descent; because the minimum-distance function is not differentiable, a soft-min approximation is used to allow backpropagation.
+<figure style="float: left; width: 150px; margin-right: 15px; margin-bottom: 10px; text-align: center;">
+  <img src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2" width="150" height="250" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 5px;">Figure 1</figcaption>
+</figure>
 
 ### Statistical Characteristics
 
