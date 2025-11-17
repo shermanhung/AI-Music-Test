@@ -17,6 +17,12 @@ The data used in this project consists of well-logging curves. Figure 1 illustra
 
 Given a sequence of geophysical measurements collected at different depths within a well, the goal is to segment the well into distinct geological strata, each defined by a top and bottom boundary (shown as red layer boundaries in Figure 1). This project aims to automate this process using an AI-based solution, reducing the need for manual interpretation by geological experts.
 
+
+<figure style="float: left; width: 150px; margin-right: 15px; margin-bottom: 10px; text-align: center;">
+  <img src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2" width="150" height="250" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 5px;">Figure 1</figcaption>
+</figure>
+
 ## Methodlogy
 
 <img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="330" title="Figure 2"/>
