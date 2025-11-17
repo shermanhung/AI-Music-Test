@@ -28,7 +28,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img 
   width="200" 
-  height="300" 
+  height="340" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 2" 
@@ -37,11 +37,11 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img 
   width="200" 
-  height="300" 
+  height="340" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 3" 
-  src="https://github.com/user-attachments/assets/5ecbb12a-a842-4ccb-9d9b-3f77eeba454b"
+  src="https://github.com/user-attachments/assets/eda6d095-922e-4aac-ae59-302ea81fa56e"
 />
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
