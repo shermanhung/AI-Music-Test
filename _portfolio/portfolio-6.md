@@ -4,6 +4,9 @@ excerpt: "This folder contains descriptions of technical projects that demonstra
 collection: portfolio
 ---
 
+<img width="741" height="304" alt="DTW_3" src="https://github.com/user-attachments/assets/f1b7d1fe-3b87-406d-910e-d83722dd67d9" />
+
+
 ## Project Overview
 
 I served as the lead data scientist for a six-month collaborative research project between 4Paradigm and China Petro. Working closely with geological experts, I translated domain-specific challenges into well-defined AI modeling tasks, designed and implemented the full solution in Python, and took end-to-end responsibility for model performance. 
@@ -12,6 +15,8 @@ Through this project, I gained extensive hands-on experience in time-series data
 
 ## Project Problem
 <img src="https://github.com/shermanhung/shermanhung.github.io/blob/5b487fa4e7ac6a05d61154a4a3e080bdab60135a/images/well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="250" title="figure 1"/>
+
+
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
