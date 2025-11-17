@@ -9,12 +9,12 @@ collection: portfolio
 I served as the lead data scientist for a six-month collaborative research project between 4Paradigm and China Petro. Working closely with geological experts, I translated domain-specific challenges into well-defined AI modeling tasks, designed and implemented the full solution in Python, and took end-to-end responsibility for model performance. 
 
 Through this project, I gained extensive hands-on experience in time-series data processing—skills that transfer directly to audio signal analysis in music. I also conducted in-depth research on time-series shapelet similarity algorithms, reviewing approximately 50–60 academic papers. This included running numerous modeling experiments using TensorFlow and scikit-learn, as well as adapting and extending open-source implementations from GitHub to refine model architectures — work very similar to what I expect to do in my graduate research.
-
-
+ 
+  
 ## Project Problem
 <img 
-  width="200" 
-  height="180 !important"  
+  max-width="300px"
+  height="auto"
   align="left"
   style="display:block; margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 1" 
