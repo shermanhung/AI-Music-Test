@@ -19,9 +19,9 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 ## Methodlogy
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="350" title="Figure 2"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="330" title="Figure 2"/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/d66095c4f2b2b2fe0ea25056e77cf4141bf3bb91/images/Comparision%20well%20candidates.png" align="left" width="200" height="350" title="Figure 3"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/d66095c4f2b2b2fe0ea25056e77cf4141bf3bb91/images/Comparision%20well%20candidates.png" align="left" width="200" height="330" title="Figure 3"/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
@@ -43,15 +43,15 @@ For example, as illustrated in Figure 4, if Well NP203 has its first peak at 211
 
 ### 2.	Once the candidate intervals are generated, how can we identify the ones most similar to the template intervals on the standard well?
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/f4c511c6a28da6636ba1247587f144408eca4abb/images/full%20curve%20features.png" align="left" width="200" height="200" title="Figure 5"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/f4c511c6a28da6636ba1247587f144408eca4abb/images/full%20curve%20features.png" align="left" width="300" height="220" title="Figure 5"/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/f4c511c6a28da6636ba1247587f144408eca4abb/images/local%20curve%20features.png" align="left" width="200" height="200" title="Figure 6"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/f4c511c6a28da6636ba1247587f144408eca4abb/images/local%20curve%20features.png" align="left" width="300" height="220" title="Figure 6"/>
 
 To address the second challenge — identifying the most similar candidate interval on the comparison wells — we developed an XGBoost binary classifier. The model takes two well-logging curve intervals as input: one from the standard well’s template and one from a candidate interval on a comparison well. It outputs a probability score indicating their similarity.
 
 The effectiveness of this classifier depends on careful feature engineering. We designed two types of features to capture similarity at different levels:
--	Global similarity (Figure X): The full curves from the standard and comparison wells are processed using various shape-extraction algorithms, which produce continuous values representing the overall similarity between the curves. These values serve as features for the XGBoost classifier.
--	Local similarity (Figure Y): Each curve is divided into six equal-length segments. Every segment from the standard well is paired with each segment from the comparison well, creating multiple segment pairs. For example, segment 1 of the standard well is paired sequentially with segments 1 through 6 of the comparison well. Each pair is processed through the shape-extraction algorithms, producing continuous values that reflect local similarity. These values are also used as features for the XGBoost classifier.
+-	Global similarity (Figure 5): The full curves from the standard and comparison wells are processed using various shape-extraction algorithms, which produce continuous values representing the overall similarity between the curves. These values serve as features for the XGBoost classifier.
+-	Local similarity (Figure 6): Each curve is divided into six equal-length segments. Every segment from the standard well is paired with each segment from the comparison well, creating multiple segment pairs. For example, segment 1 of the standard well is paired sequentially with segments 1 through 6 of the comparison well. Each pair is processed through the shape-extraction algorithms, producing continuous values that reflect local similarity. These values are also used as features for the XGBoost classifier.
 
 The shape-extraction algorithms employed include Dynamic Time Warping, Minimum Jump Cost, ROCKET, InceptionTime, Shapelets, and various statistical features. Detailed descriptions of each algorithm are provided in the appendix and referenced therein.
 
