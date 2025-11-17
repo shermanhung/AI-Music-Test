@@ -10,8 +10,6 @@ I served as the lead data scientist for a six-month collaborative research proje
 
 Through this project, I gained extensive hands-on experience in time-series data processing—skills that transfer directly to audio signal analysis in music. I also conducted in-depth research on time-series shapelet similarity algorithms, reviewing approximately 50–60 academic papers. This included running numerous modeling experiments using TensorFlow and scikit-learn, as well as adapting and extending open-source implementations from GitHub to refine model architectures — work very similar to what I expect to do in my graduate research.
 
-
-
 ## Project Problem
 <img src="https://github.com/shermanhung/shermanhung.github.io/blob/845fdede152fd43c09893780542d617e87fb8d02/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="250" title="Figure 1"/>
 
@@ -21,9 +19,9 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 ## Methodlogy
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="300" title="Figure 2"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="350" title="Figure 2"/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="300" title="Figure 3"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="350" title="Figure 3"/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
