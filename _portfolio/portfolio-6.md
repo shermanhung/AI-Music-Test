@@ -54,7 +54,15 @@ The aboved approach involves two key technical challenges:
 
 ### 1.	How can we generate candidate intervals on the comparison wells?
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/ef753ac8bba0efda6f6e7100b2733f507dd09842/images/derivative%20function.png" align="left" width="200" height="350" title="Figure 4"/>
+<img 
+  width="200" 
+  height="340" 
+  align="left"
+  style="margin-right: 15px; margin-bottom: 10px;" 
+  title="Figure 4" 
+  src="https://github.com/user-attachments/assets/5167f294-053a-4af2-b1bd-c7e97b71d33f"
+/>
+
 
 To address the first challenge of generating candidate intervals on comparison wells, we applied an activation-function heuristic grounded in geological principles. The idea is straightforward: stratigraphic boundaries typically occur where one rock type transitions to another, causing abrupt changes in the subsurface’s physical properties. These changes are reflected in well-logging curves, where the largest shifts correspond to points with the highest derivatives. In other words, the stronger the change in the logging signal, the more likely it marks a true geological boundary.
 
@@ -64,9 +72,23 @@ For example, as illustrated in Figure 4, if Well NP203 has its first peak at 211
 
 ### 2.	Once the candidate intervals are generated, how can we identify the ones most similar to the template intervals on the standard well?
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/f4c511c6a28da6636ba1247587f144408eca4abb/images/full%20curve%20features.png" align="left" width="300" height="220" title="Figure 5"/>
+<img 
+  width="200" 
+  height="340" 
+  align="left"
+  style="margin-right: 15px; margin-bottom: 10px;" 
+  title="Figure 5" 
+  src="https://github.com/user-attachments/assets/8d5d7188-92f9-41c0-b9a8-9fe7358adb40" 
+/>
+<img 
+  width="200" 
+  height="340" 
+  align="left"
+  style="margin-right: 15px; margin-bottom: 10px;" 
+  title="Figure 6" 
+  src="https://github.com/user-attachments/assets/c199a8ea-d522-45ed-9248-81ce896ae11f"
+/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/f4c511c6a28da6636ba1247587f144408eca4abb/images/local%20curve%20features.png" align="left" width="300" height="220" title="Figure 6"/>
 
 To address the second challenge — identifying the most similar candidate interval on the comparison wells — we developed an XGBoost binary classifier. The model takes two well-logging curve intervals as input: one from the standard well’s template and one from a candidate interval on a comparison well. It outputs a probability score indicating their similarity.
 
