@@ -11,7 +11,7 @@ I served as the lead data scientist for a six-month collaborative research proje
 Through this project, I gained extensive hands-on experience in time-series data processing—skills that transfer directly to audio signal analysis in music. I also conducted in-depth research on time-series shapelet similarity algorithms, reviewing approximately 50–60 academic papers. This included running numerous modeling experiments using TensorFlow and scikit-learn, as well as adapting and extending open-source implementations from GitHub to refine model architectures — work very similar to what I expect to do in my graduate research.
 
 ## Project Problem
-<img align='left' width="200" height="250" title="Figure 1" style="margin-right: 15px; margin-bottom: 10px" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
+<img align='left' width="200" height="220" title="Figure 1" style="margin-right: 15px; margin-bottom: 10px" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series   signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
