@@ -13,7 +13,7 @@ Through this project, I gained extensive hands-on experience in time-series data
 ## Project Problem
 <img 
   width="200" 
-  height="220"  
+  height="210"  
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 1" 
@@ -28,7 +28,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img 
   width="200" 
-  height="340" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 2" 
@@ -37,7 +37,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img 
   width="200" 
-  height="340" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 3" 
@@ -56,7 +56,7 @@ The aboved approach involves two key technical challenges:
 
 <img 
   width="200" 
-  height="340" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 4" 
@@ -73,7 +73,7 @@ For example, as illustrated in Figure 4, if Well NP203 has its first peak at 211
 
 <img 
   width="200" 
-  height="340" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 5" 
@@ -81,7 +81,7 @@ For example, as illustrated in Figure 4, if Well NP203 has its first peak at 211
 />
 <img 
   width="200" 
-  height="340" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 6" 
