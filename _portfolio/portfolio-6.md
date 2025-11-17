@@ -23,7 +23,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="400" title="Figure 2"/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="500" title="Figure 3"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="1000" title="Figure 3"/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
