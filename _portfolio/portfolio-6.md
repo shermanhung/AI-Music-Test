@@ -63,7 +63,6 @@ The aboved approach involves two key technical challenges:
   src="https://github.com/user-attachments/assets/5167f294-053a-4af2-b1bd-c7e97b71d33f"
 />
 
-
 To address the first challenge of generating candidate intervals on comparison wells, we applied an activation-function heuristic grounded in geological principles. The idea is straightforward: stratigraphic boundaries typically occur where one rock type transitions to another, causing abrupt changes in the subsurface’s physical properties. These changes are reflected in well-logging curves, where the largest shifts correspond to points with the highest derivatives. In other words, the stronger the change in the logging signal, the more likely it marks a true geological boundary.
 
 The activation-function procedure is as follows: we first select a comparison well, compute the derivative of its well-logging curves, and identify the points with the largest derivative values (the peak points). These peaks form the basis for constructing candidate intervals. Each peak is associated with a specific depth, and every peak is paired with all subsequent peaks located at greater depths.
