@@ -4,9 +4,6 @@ excerpt: "This folder contains descriptions of technical projects that demonstra
 collection: portfolio
 ---
 
-<img width="741" height="304" alt="DTW_3" src="https://github.com/user-attachments/assets/f1b7d1fe-3b87-406d-910e-d83722dd67d9" />
-
-
 ## Project Overview
 
 I served as the lead data scientist for a six-month collaborative research project between 4Paradigm and China Petro. Working closely with geological experts, I translated domain-specific challenges into well-defined AI modeling tasks, designed and implemented the full solution in Python, and took end-to-end responsibility for model performance. 
@@ -15,15 +12,11 @@ Through this project, I gained extensive hands-on experience in time-series data
 
 ## Project Problem
 
-
-<img width="346" height="861" title="well logging curves of a well" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
-
+<img width="200" height="300" title="well logging curves of a well" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
 Given a sequence of geophysical measurements collected at different depths within a well, the goal is to segment the well into distinct geological strata, each defined by a top and bottom boundary (shown as red layer boundaries in Figure 1). This project aims to automate this process using an AI-based solution, reducing the need for manual interpretation by geological experts.
-
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/5b487fa4e7ac6a05d61154a4a3e080bdab60135a/images/well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="250" title="figure 1"/>
 
 ## Methodlogy
 
