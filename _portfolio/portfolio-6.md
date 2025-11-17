@@ -28,7 +28,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img 
   width="200" 
-  height="240" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 2" 
@@ -37,7 +37,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img 
   width="200" 
-  height="240" 
+  height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 3" 
