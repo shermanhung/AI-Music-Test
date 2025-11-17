@@ -37,7 +37,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 />
 
 <img 
-  width="160px"
+  width="200px"
   height="auto" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
