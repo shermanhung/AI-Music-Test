@@ -19,7 +19,9 @@ Through this project, I gained extensive hands-on experience in time-series data
   alt="well logging curves of a well" 
   src="https://github.com/user-attachments/assets/bfea1b33-ccab-481e-9967-0d0c8d3057d1" 
 />
-
+<figure style="float: left; width: 0px; text-align: center;">
+  <figcaption style="margin-top: 5px;">Figure 1</figcaption>
+</figure>
 
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series   signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
