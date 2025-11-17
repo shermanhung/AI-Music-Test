@@ -13,7 +13,7 @@ Through this project, I gained extensive hands-on experience in time-series data
   
 ## Project Problem
 <img 
-  width="150px"
+  width="160px"
   height="auto"
   align="left"
   style="display:block; margin-right: 15px; margin-bottom: 10px;" 
@@ -25,17 +25,11 @@ The data used in this project consists of well-logging curves. Figure 1 illustra
 
 Given a sequence of geophysical measurements collected at different depths within a well, the goal is to segment the well into distinct geological strata, each defined by a top and bottom boundary (shown as red layer boundaries in Figure 1). This project aims to automate this process using an AI-based solution, reducing the need for manual interpretation by geological experts.
 
-
-
-
-
-
-
 ## Methodlogy
 
 <img 
-  width="200" 
-  height="300" 
+  width="160px"
+  height="auto"
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 2" 
@@ -43,8 +37,8 @@ Given a sequence of geophysical measurements collected at different depths withi
 />
 
 <img 
-  width="200" 
-  height="300" 
+  width="160px"
+  height="auto" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 3" 
