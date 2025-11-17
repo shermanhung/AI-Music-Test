@@ -13,7 +13,7 @@ Through this project, I gained extensive hands-on experience in time-series data
 ## Project Problem
 <img 
   width="200" 
-  height="240"  
+  height="200"  
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 1" 
@@ -55,7 +55,7 @@ The aboved approach involves two key technical challenges:
 ### 1.	How can we generate candidate intervals on the comparison wells?
 
 <img 
-  width="500" 
+  width="200" 
   height="300" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
