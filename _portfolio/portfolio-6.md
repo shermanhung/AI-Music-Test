@@ -23,7 +23,7 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 <img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="400" title="Figure 2"/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="1000" title="Figure 3"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="400" title="Figure 3"/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
@@ -47,3 +47,43 @@ The effectiveness of this classifier depends on careful feature engineering. We 
 -	Local similarity (Figure Y): Each curve is divided into six equal-length segments. Every segment from the standard well is paired with each segment from the comparison well, creating multiple segment pairs. For example, segment 1 of the standard well is paired sequentially with segments 1 through 6 of the comparison well. Each pair is processed through the shape-extraction algorithms, producing continuous values that reflect local similarity. These values are also used as features for the XGBoost classifier.
 
 The shape-extraction algorithms employed include Dynamic Time Warping, Minimum Jump Cost, ROCKET, InceptionTime, Shapelets, and various statistical features. Detailed descriptions of each algorithm are provided in the appendix and referenced therein.
+
+# Appendix
+
+## Dynamic Time Warping
+
+Dynamic Time Warping (DTW) measures the similarity between two time series, even when they differ in length or speed. It aligns the sequences by stretching or compressing segments so that similar shapes match, then computes the optimal alignment. The result is a continuous score indicating how similar the two overall patterns are, even if they are not aligned in time.
+
+## Minimum Jump Cost
+
+Minimum Jump Cost (MJC) measures how different two time series are by repeatedly “jumping” forward between their data points. Starting at the beginning of one curve, the algorithm alternates between the two sequences, each time choosing the smallest forward jump until it reaches the end of either series. The total distance of these jumps becomes the dissimilarity score: similar curves produce short, low-cost jumps, while dissimilar curves result in much larger cumulative cost.
+
+## ROCKET (RandOm Convolutional KErnel Transform)
+
+ROCKET (RandOm Convolutional KErnel Transform) transforms time series using a large number of randomly generated convolutional kernels—each with random length, weights, bias, dilation, and padding—without learning any kernel parameters. For each kernel, two features are extracted from the resulting feature map: the maximum value, indicating the strongest pattern match, and the proportion of positive values (PPV), reflecting how often the pattern appears in the series. These features are then used to train our XGBoost binary classifier.
+
+## InceptionTime
+
+InceptionTime is a state-of-the-art time series classification model built as an ensemble of five Inception networks. Each network stacks Inception modules that include:
+-	1×1 bottleneck convolutions to reduce dimensionality and prevent overfitting
+-	Multi-scale convolutions with filters of varying lengths (e.g., 10, 20, 40) to capture patterns at different time scales
+-	Residual connections to stabilize training and avoid vanishing gradients
+
+An ensemble of five networks is used because a single Inception model can have high variance due to random initialization and stochastic training. Averaging their predictions yields more stable, state-of-the-art performance. The feature vector from the final hidden layer of the InceptionTime ensemble is then used as input to our XGBoost binary classifier.
+
+## Shapelet
+
+Learning Shapelets is a time series classification method that learns the most discriminative subsequences—called shapelets—directly from the data. Since classes are often distinguished by short, characteristic patterns rather than the entire series, the distances from a time series to these learned shapelets serve as informative features for our XGBoost binary classifier.
+
+The method starts with initial shapelet candidates (often cluster centroids) and converts each time series into a feature vector by computing its minimum distance to each shapelet. These distance features are then passed to a simple classifier such as logistic regression. Both the shapelets and classifier weights are learned jointly using gradient descent; because the minimum-distance function is not differentiable, a soft-min approximation is used to allow backpropagation.
+
+## Statistical Characteristics
+
+This method computes the absolute differences between various statistical features of the two curves, including Average Rectified Value, Mean, Mean Square, Variance, Standard Deviation, Root Mean Square, Crest Factor, Impulse Factor, Margin Factor, Skewness, Kurtosis, and Form Factor.
+
+
+
+
+
+
+# References
