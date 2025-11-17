@@ -12,7 +12,7 @@ Through this project, I gained extensive hands-on experience in time-series data
 
 ## Project Problem
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/c315227edc3258023ee0c4e0396dcd18c161c6de/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="400" title="Figure 1"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/c315227edc3258023ee0c4e0396dcd18c161c6de/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="250" title="Figure 1"/>
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
@@ -20,8 +20,11 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 ## Methodlogy
 
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/c315227edc3258023ee0c4e0396dcd18c161c6de/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="200" title="Figure 2"/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
+
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/c315227edc3258023ee0c4e0396dcd18c161c6de/images/Well%20logging%20curves%20of%20a%20well.png" align="left" width="200" height="200" title="Figure 3"/>
 
 Following the same reasoning, I reformulated the problem as a template-matching task. As shown in Figure 3, the annotated intervals from the standard well (numbered in the figure) act as templates. The goal is to find, for each template, the most similar interval among all candidate intervals in a comparison well. For example, to identify Layer 1 in a comparison well, we take Layer 1 from the standard well as the template and compare it against all candidate intervals in the comparison well. The most similar candidate is then assigned as Layer 1 for that comparison well.
 
