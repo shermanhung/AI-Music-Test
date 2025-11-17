@@ -60,8 +60,8 @@ For example, as illustrated in Figure 4, if Well NP203 has its first peak at 211
 ### 2.	Once the candidate intervals are generated, how can we identify the ones most similar to the template intervals on the standard well?
 
 <div style="display: flex; gap: 15px; align-items: flex-start;">
-  <img src="https://github.com/user-attachments/assets/8d5d7188-92f9-41c0-b9a8-9fe7358adb40" width="240" title="Figure 5"/>
-  <img src="https://github.com/user-attachments/assets/c199a8ea-d522-45ed-9248-81ce896ae11f" width="240" title="Figure 6"/>
+  <img src="https://github.com/user-attachments/assets/8d5d7188-92f9-41c0-b9a8-9fe7358adb40" width="360" title="Figure 5"/>
+  <img src="https://github.com/user-attachments/assets/c199a8ea-d522-45ed-9248-81ce896ae11f" width="340" title="Figure 6"/>
 </div>
 
 To address the second challenge — identifying the most similar candidate interval on the comparison wells — we developed an XGBoost binary classifier. The model takes two well-logging curve intervals as input: one from the standard well’s template and one from a candidate interval on a comparison well. It outputs a probability score indicating their similarity.
