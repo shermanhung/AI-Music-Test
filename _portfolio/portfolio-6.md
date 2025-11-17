@@ -25,7 +25,5 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
-
-
 Following the same reasoning, I reformulated the problem as a template-matching task. As shown in Figure 3, the annotated intervals from the standard well (numbered in the figure) act as templates. The goal is to find, for each template, the most similar interval among all candidate intervals in a comparison well. For example, to identify Layer 1 in a comparison well, we take Layer 1 from the standard well as the template and compare it against all candidate intervals in the comparison well. The most similar candidate is then assigned as Layer 1 for that comparison well.
 
