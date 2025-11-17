@@ -125,10 +125,6 @@ An ensemble of five networks is used because a single Inception model can have h
 Learning Shapelets is a time series classification method that learns the most discriminative subsequences—called shapelets—directly from the data. Since classes are often distinguished by short, characteristic patterns rather than the entire series, the distances from a time series to these learned shapelets serve as informative features for our XGBoost binary classifier.
 
 The method starts with initial shapelet candidates (often cluster centroids) and converts each time series into a feature vector by computing its minimum distance to each shapelet. These distance features are then passed to a simple classifier such as logistic regression. Both the shapelets and classifier weights are learned jointly using gradient descent; because the minimum-distance function is not differentiable, a soft-min approximation is used to allow backpropagation.
-<figure style="float: left; width: 150px; margin-right: 15px; margin-bottom: 10px; text-align: center;">
-  <img src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2" width="150" height="250" style="display: block; margin: 0 auto;" />
-  <figcaption style="margin-top: 5px;">Figure 1</figcaption>
-</figure>
 
 ### Statistical Characteristics
 
