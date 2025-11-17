@@ -14,7 +14,7 @@ Through this project, I gained extensive hands-on experience in time-series data
 ## Project Problem
 <img 
   width="300" 
-  height="150"  
+  height="180 !important"  
   align="left"
   style="display:block; margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 1" 
