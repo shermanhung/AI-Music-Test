@@ -12,8 +12,8 @@ Through this project, I gained extensive hands-on experience in time-series data
 
 ## Project Problem
 <img 
-  width="346" 
-  height="861" 
+  width="200" 
+  height="250" 
   alt="well logging curves of a well" 
   src="https://github.com/user-attachments/assets/bfea1b33-ccab-481e-9967-0d0c8d3057d1" 
   style="margin-right: 15px; margin-bottom: 10px;" 
