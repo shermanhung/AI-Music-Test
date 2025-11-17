@@ -31,7 +31,7 @@ Following the same reasoning, I reformulated the problem as a template-matching 
 
 The aboved approach involves two key technical challenges:
 
-1.	How can we generate candidate intervals on the comparison wells?
+#### 1.	How can we generate candidate intervals on the comparison wells?
 
 To address the first challenge of generating candidate intervals on comparison wells, we applied an activation-function heuristic grounded in geological principles. The idea is straightforward: stratigraphic boundaries typically occur where one rock type transitions to another, causing abrupt changes in the subsurface’s physical properties. These changes are reflected in well-logging curves, where the largest shifts correspond to points with the highest derivatives. In other words, the stronger the change in the logging signal, the more likely it marks a true geological boundary.
 
@@ -39,7 +39,7 @@ The activation-function procedure is as follows: we first select a comparison we
 
 For example, as illustrated in Figure 4, if Well NP203 has its first peak at 2110 meters and its second peak at 2120 meters, the interval from 2110 m to 2120 m becomes a candidate interval. Reverse pairings do not apply—the second peak is not paired with the first.
 
-2.	Once the candidate intervals are generated, how can we identify the ones most similar to the template intervals on the standard well?
+#### 2.	Once the candidate intervals are generated, how can we identify the ones most similar to the template intervals on the standard well?
 
 To address the second challenge — identifying the most similar candidate interval on the comparison wells — we developed an XGBoost binary classifier. The model takes two well-logging curve intervals as input: one from the standard well’s template and one from a candidate interval on a comparison well. It outputs a probability score indicating their similarity.
 
