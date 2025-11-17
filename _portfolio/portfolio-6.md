@@ -13,8 +13,8 @@ Through this project, I gained extensive hands-on experience in time-series data
 
 ## Project Problem
 <img 
-  width="200" 
-  height="200"  
+  width="300" 
+  height="250"  
   align="left"
   style="display:block; margin-right: 15px; margin-bottom: 10px;" 
   title="Figure 1" 
