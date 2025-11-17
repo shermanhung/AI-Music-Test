@@ -11,13 +11,6 @@ I served as the lead data scientist for a six-month collaborative research proje
 Through this project, I gained extensive hands-on experience in time-series data processing—skills that transfer directly to audio signal analysis in music. I also conducted in-depth research on time-series shapelet similarity algorithms, reviewing approximately 50–60 academic papers. This included running numerous modeling experiments using TensorFlow and scikit-learn, as well as adapting and extending open-source implementations from GitHub to refine model architectures — work very similar to what I expect to do in my graduate research.
 
 ## Project Problem
-
-<p>
-  <img align='left' width="150" height="250" title="Figure 1" style="margin-right: 15px; margin-bottom: 10px" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
-  <br>
-  <strong>Figure1</strong>
-</p>
-
 <figure>
   <img align='left' width="150" height="250" title="Figure 1" style="margin-right: 15px; margin-bottom: 10px" src="https://github.com/user-attachments/assets/eae92e73-5f0a-4222-b5a4-3d4832a7a0f2"/>
   <figcaption>Figure 1</figcaption>
