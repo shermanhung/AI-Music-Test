@@ -19,9 +19,9 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 ## Methodlogy
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="350" title="Figure 2"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="300" title="Figure 2"/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="350" title="Figure 3"/>
+<img src="https://github.com/shermanhung/shermanhung.github.io/blob/cfb643d320f26ff758e8f236daeed1787986c82a/images/Comparision%20well%20candidates.png" align="left" width="200" height="300" title="Figure 3"/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
@@ -30,6 +30,7 @@ Following the same reasoning, I reformulated the problem as a template-matching 
 ## Technical Details
 
 The aboved approach involves two key technical challenges:
+
 1.	How can we generate candidate intervals on the comparison wells?
 
 To address the first challenge of generating candidate intervals on comparison wells, we applied an activation-function heuristic grounded in geological principles. The idea is straightforward: stratigraphic boundaries typically occur where one rock type transitions to another, causing abrupt changes in the subsurface’s physical properties. These changes are reflected in well-logging curves, where the largest shifts correspond to points with the highest derivatives. In other words, the stronger the change in the logging signal, the more likely it marks a true geological boundary.
