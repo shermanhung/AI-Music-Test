@@ -13,15 +13,12 @@ Through this project, I gained extensive hands-on experience in time-series data
 ## Project Problem
 <img 
   width="200" 
-  height="220" 
+  height="240" 
   align="left"
   style="margin-right: 15px; margin-bottom: 10px;" 
-  alt="well logging curves of a well" 
+  title="Figure 1" 
   src="https://github.com/user-attachments/assets/bfea1b33-ccab-481e-9967-0d0c8d3057d1" 
 />
-<figure style="float: left; width: 0px; text-align: center;">
-  <figcaption style="margin-top: 5px;">Figure 1</figcaption>
-</figure>
 
 The data used in this project consists of well-logging curves. Figure 1 illustrates this type of data, which can be viewed as a form of time-series   signal where the time axis is replaced by depth (y-axis), and geophysical measurements are recorded at regular spatial intervals (blue curve along the x-axis). Conceptually, these signals are similar to audio waveforms used in music information retrieval, allowing many of the same signal-processing and pattern-analysis techniques to be applied.
 
@@ -29,9 +26,23 @@ Given a sequence of geophysical measurements collected at different depths withi
 
 ## Methodlogy
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/2f7cdbd110b85ffe9b74ac11d98ad7f26c584ad0/images/Standard%20well%20%26%20Comparison%20well.png" align="left" width="200" height="330" title="Figure 2"/>
+<img 
+  width="200" 
+  height="240" 
+  align="left"
+  style="margin-right: 15px; margin-bottom: 10px;" 
+  title="Figure 2" 
+  src="https://github.com/user-attachments/assets/b2f7484c-f2e1-42a2-a550-6fcc0472bf07"
+/>
 
-<img src="https://github.com/shermanhung/shermanhung.github.io/blob/d66095c4f2b2b2fe0ea25056e77cf4141bf3bb91/images/comparision%20well%20candidates.png" align="left" width="200" height="330" title="Figure 3"/>
+<img 
+  width="200" 
+  height="240" 
+  align="left"
+  style="margin-right: 15px; margin-bottom: 10px;" 
+  title="Figure 3" 
+  src="https://github.com/user-attachments/assets/5ecbb12a-a842-4ccb-9d9b-3f77eeba454b"
+/>
 
 To begin the project, I worked closely with geologists to understand their manual workflow and identify which steps could be automated with AI. As illustrated in Figure 2, their process starts by designating one well as the standard well, where geological intervals have been manually annotated. To interpret other wells (the comparison wells), geologists visually match their curves against the standard well to identify corresponding strata.
 
