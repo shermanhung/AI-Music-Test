@@ -74,19 +74,19 @@ The shape-extraction algorithms employed include Dynamic Time Warping, Minimum J
 
 ## Appendix
 
-### Dynamic Time Warping
+### Dynamic Time Warping [1]
 
 Dynamic Time Warping (DTW) measures the similarity between two time series, even when they differ in length or speed. It aligns the sequences by stretching or compressing segments so that similar shapes match, then computes the optimal alignment. The result is a continuous score indicating how similar the two overall patterns are, even if they are not aligned in time.
 
-### Minimum Jump Cost
+### Minimum Jump Cost [2]
 
 Minimum Jump Cost (MJC) measures how different two time series are by repeatedly “jumping” forward between their data points. Starting at the beginning of one curve, the algorithm alternates between the two sequences, each time choosing the smallest forward jump until it reaches the end of either series. The total distance of these jumps becomes the dissimilarity score: similar curves produce short, low-cost jumps, while dissimilar curves result in much larger cumulative cost.
 
-### ROCKET (RandOm Convolutional KErnel Transform)
+### ROCKET (RandOm Convolutional KErnel Transform) [3]
 
 ROCKET (RandOm Convolutional KErnel Transform) transforms time series using a large number of randomly generated convolutional kernels—each with random length, weights, bias, dilation, and padding—without learning any kernel parameters. For each kernel, two features are extracted from the resulting feature map: the maximum value, indicating the strongest pattern match, and the proportion of positive values (PPV), reflecting how often the pattern appears in the series. These features are then used to train our XGBoost binary classifier.
 
-### InceptionTime
+### InceptionTime [4]
 
 InceptionTime is a state-of-the-art time series classification model built as an ensemble of five Inception networks. Each network stacks Inception modules that include:
 -	1×1 bottleneck convolutions to reduce dimensionality and prevent overfitting
@@ -95,7 +95,7 @@ InceptionTime is a state-of-the-art time series classification model built as an
 
 An ensemble of five networks is used because a single Inception model can have high variance due to random initialization and stochastic training. Averaging their predictions yields more stable, state-of-the-art performance. The feature vector from the final hidden layer of the InceptionTime ensemble is then used as input to our XGBoost binary classifier.
 
-### Shapelet
+### Shapelet [5]
 
 Learning Shapelets is a time series classification method that learns the most discriminative subsequences—called shapelets—directly from the data. Since classes are often distinguished by short, characteristic patterns rather than the entire series, the distances from a time series to these learned shapelets serve as informative features for our XGBoost binary classifier.
 
@@ -106,3 +106,13 @@ The method starts with initial shapelet candidates (often cluster centroids) and
 This method computes the absolute differences between various statistical features of the two curves, including Average Rectified Value, Mean, Mean Square, Variance, Standard Deviation, Root Mean Square, Crest Factor, Impulse Factor, Margin Factor, Skewness, Kurtosis, and Form Factor.
 
 ## References
+
+[1] E. J. Keogh and M. J. Pazzani, “Derivative Dynamic Time Warping,” in Proc. 1st SIAM Int. Conf. Data Mining (SDM 2001), Chicago, IL, USA, Apr. 5–7, 2001, pp. 1–11, doi: 10.1137/1.9781611972719.1.
+
+[2] J. Serrà and J. L. Arcos, “A Competitive Measure to Assess the Similarity between Two Time Series,” in Case-Based Reasoning Research and Development: Proc. 20th Int. Conf. ICCBR 2012, Lyon, France, Sept. 3–6, 2012, vol. 7466, Lecture Notes in Computer Science, pp. 414–427, Springer, doi: 10.1007/978-3-642-32986-9_31.
+
+[3] A. Dempster, F. Petitjean, and G. I. Webb, “ROCKET: exceptionally fast and accurate time series classification using random convolutional kernels,” Data Mining and Knowledge Discovery, vol. 34, no. 5, pp. 1454–1495, 2020, doi: 10.1007/s10618-020-00701-z.
+
+[4] H. I. Fawaz et al., “InceptionTime: Finding AlexNet for time series classification,” Data Mining and Knowledge Discovery, vol. 34, no. 6, pp. 1936–1962, 2020, doi: 10.1007/s10618-020-00710-y.
+
+[5] J. Grabocka, N. Schilling, M. Wistuba, and L. Schmidt-Thieme, “Learning time-series shapelets,” in Proc. 20th ACM SIGKDD Int. Conf. Knowledge Discovery and Data Mining (KDD ’14), New York, NY, USA, Aug. 24–27, 2014, pp. 392–401, doi: 10.1145/2623330.2623613.
