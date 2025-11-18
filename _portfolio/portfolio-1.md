@@ -48,14 +48,6 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - 旧日支配者的低语 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%97%A7%E6%97%A5%E6%94%AF%E9%85%8D%E8%80%85%E7%9A%84%E4%BD%8E%E8%AF%AD.gp)
 
-## 原蛇的诱惑
-
-[![Fairy Lied - 原蛇的诱惑](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwifQLl_9f6M)](https://www.youtube.com/watch?v=wifQLl_9f6M)
-
-[Fairy Lied - 原蛇的诱惑 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91.pdf)
-
-[Fairy Lied - 原蛇的诱惑 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91.gp)
-
 ## 独角兽的梦
 
 [![Fairy Lied - 独角兽的梦](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DU7D8v7i_QrE)](https://www.youtube.com/watch?v=U7D8v7i_QrE)
@@ -64,4 +56,10 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - 独角兽的梦 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E7%8B%AC%E8%A7%92%E5%85%BD%E7%9A%84%E6%A2%A6.gp)
 
+## 原蛇的诱惑
 
+[![Fairy Lied - 原蛇的诱惑](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwifQLl_9f6M)](https://www.youtube.com/watch?v=wifQLl_9f6M)
+
+[Fairy Lied - 原蛇的诱惑 - Drum Transcription](https://github.com/shermanhung/shermanhung.github.io/blob/3b20352ff64d8d36caa8bf9d55ef354670b931a0/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91.pdf)
+
+[Fairy Lied - 原蛇的诱惑 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91.gp)
