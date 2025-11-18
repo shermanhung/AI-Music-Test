@@ -12,12 +12,12 @@ This is a video recording of my drum cover of the song 青梅 by AwakeMountains.
 
 Wage War - Low (Metronome Version)
 
-This is the track Low by Wage War, with a click track incorporated using Logic Pro.
+This is the track Low by Wage War, with a click track added to the original recording by me using Logic Pro.
 
 [![Wage War - Low (Metronome Version)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKGHjTAiIAo4)](https://www.youtube.com/watch?v=KGHjTAiIAo4)
 
 Erra - Breach (Metronome Version)
 
-This is the track Breach by Erra, with a click track incorporated using Logic Pro.
+This is the track Breach by Erra, with a click track added to the original recording by me using Logic Pro.
 
 [![Erra - Breach (Metronome Version)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5Ak7aZPx-Yo)](https://www.youtube.com/watch?v=5Ak7aZPx-Yo)
