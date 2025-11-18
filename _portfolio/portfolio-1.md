@@ -1,12 +1,14 @@
 ---
 title: "Band Songs"
-excerpt: "This folder contains songs composed collectively by Fairy Lied's band members, with the drum parts written and arranged by me. Each piece is accompanied by its corresponding audio recording and PDF drum transcription.<br/>" 
+excerpt: "This folder contains songs composed collectively by Fairy Lied's band members. <br/>" 
 collection: portfolio
 ---
 
 Fairy Lied is a gothic metal band in which I serve as the drummer. The band creates original works that fuse dark, introspective lyricism with groove-driven rhythmic energy. Our music explores the emotional interplay between despair and hope, transforming intensity and darkness into channels of creative and expressive inspiration.
 
-My Way
+The following songs were composed collaboratively by our band members (guitarist, bassist, vocalist, keyboardist, and drummer). The guitarist typically outlines the initial song structure, after which I compose the drum parts accordingly. Each piece is accompanied by its corresponding audio recording and a PDF drum transcription.
+
+## My Way
 
 [![Fairy Lied - My Way](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DECi6ZL3AEmM)](https://www.youtube.com/watch?v=ECi6ZL3AEmM)
 
@@ -14,7 +16,7 @@ My Way
 
 [Fairy Lied - My Way - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/My%20Way.gp)
 
-Midnight Song
+## Midnight Song
 
 [![Fairy Lied - Midnight Song](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeRwOQVcr4lw)](https://www.youtube.com/watch?v=eRwOQVcr4lw)
 
@@ -22,7 +24,7 @@ Midnight Song
 
 [Fairy Lied - Midnight Song - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/Midnight%20Song.gp)
 
-黑暗的光
+## 黑暗的光
 
 [![Fairy Lied - 黑暗的光](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4eO9E_iXffQ)](https://www.youtube.com/watch?v=4eO9E_iXffQ)
 
@@ -30,7 +32,7 @@ Midnight Song
 
 [Fairy Lied - 黑暗的光 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%89.gp)
 
-我看见黑暗中的你
+## 我看见黑暗中的你
 
 [![Fairy Lied - 我看见黑暗中的你](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De_zQw3BbzDc)](https://www.youtube.com/watch?v=e_zQw3BbzDc)
 
@@ -38,7 +40,7 @@ Midnight Song
 
 [Fairy Lied - 我看见黑暗中的你 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%88%91%E7%9C%8B%E8%A7%81%E9%BB%91%E6%9A%97%E4%B8%AD%E7%9A%84%E4%BD%A0.gp)
 
-旧日支配者的低语
+## 旧日支配者的低语
 
 [![Fairy Lied - 旧日支配者的低语](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnML3ztegLVo)](https://www.youtube.com/watch?v=nML3ztegLVo)
 
@@ -46,7 +48,7 @@ Midnight Song
 
 [Fairy Lied - 旧日支配者的低语 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%97%A7%E6%97%A5%E6%94%AF%E9%85%8D%E8%80%85%E7%9A%84%E4%BD%8E%E8%AF%AD.gp)
 
-原蛇的诱惑
+## 原蛇的诱惑
 
 [![Fairy Lied - 原蛇的诱惑](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwifQLl_9f6M)](https://www.youtube.com/watch?v=wifQLl_9f6M)
 
@@ -54,7 +56,7 @@ Midnight Song
 
 [Fairy Lied - 原蛇的诱惑 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E5%8E%9F%E8%9B%87%E7%9A%84%E8%AF%B1%E6%83%91.gp)
 
-独角兽的梦
+## 独角兽的梦
 
 [![Fairy Lied - 独角兽的梦](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DU7D8v7i_QrE)](https://www.youtube.com/watch?v=U7D8v7i_QrE)
 
