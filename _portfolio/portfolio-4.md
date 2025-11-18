@@ -6,7 +6,7 @@ collection: portfolio
 
 青梅 - AwakeMountains - Drum Cover
 
-This is a video recording of my drum cover of the song 青梅 by AwakeMountains.
+This is a video recording of my drum cover of the song 青梅 by AwakeMountains. The footage was filmed by a cameraman, while I handled the video editing and audio mixing myself.
 
 [![青梅 - AwakeMountains - Drum Cover](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxyTRr8o1yY)](https://www.youtube.com/watch?v=wxyTRr8o1yY)
 
