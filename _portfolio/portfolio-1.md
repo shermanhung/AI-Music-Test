@@ -6,9 +6,9 @@ collection: portfolio
 
 Fairy Lied is a gothic metal band in which I serve as the drummer. The band creates original works that fuse dark, introspective lyricism with groove-driven rhythmic energy. Our music explores the emotional interplay between despair and hope, transforming intensity and darkness into channels of creative and expressive inspiration.
 
-The following songs were composed collaboratively by our band members (guitarist, bassist, vocalist, keyboardist, and drummer). The guitarist typically outlines the initial song structure, after which I compose the drum parts accordingly. Each piece is accompanied by its corresponding audio recording and a PDF drum transcription.
+The following songs were composed collaboratively by our band members (guitarist, bassist, vocalist, keyboardist, and drummer). The guitarist typically outlines the initial song structure, after which I compose the drum parts accordingly. Each piece is presented with its title and composition date, along with the corresponding audio recording and a PDF drum transcription.
 
-## My Way
+## My Way - 20240116
 
 [![Fairy Lied - My Way](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DECi6ZL3AEmM)](https://www.youtube.com/watch?v=ECi6ZL3AEmM)
 
@@ -16,7 +16,7 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - My Way - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/My%20Way.gp)
 
-## Midnight Song
+## Midnight Song - 20240310
 
 [![Fairy Lied - Midnight Song](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeRwOQVcr4lw)](https://www.youtube.com/watch?v=eRwOQVcr4lw)
 
@@ -24,7 +24,7 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - Midnight Song - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/Midnight%20Song.gp)
 
-## 黑暗的光
+## 黑暗的光 - 20241024
 
 [![Fairy Lied - 黑暗的光](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4eO9E_iXffQ)](https://www.youtube.com/watch?v=4eO9E_iXffQ)
 
@@ -32,7 +32,7 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - 黑暗的光 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E9%BB%91%E6%9A%97%E7%9A%84%E5%85%89.gp)
 
-## 我看见黑暗中的你
+## 我看见黑暗中的你 - 20241215
 
 [![Fairy Lied - 我看见黑暗中的你](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De_zQw3BbzDc)](https://www.youtube.com/watch?v=e_zQw3BbzDc)
 
@@ -40,7 +40,7 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - 我看见黑暗中的你 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%88%91%E7%9C%8B%E8%A7%81%E9%BB%91%E6%9A%97%E4%B8%AD%E7%9A%84%E4%BD%A0.gp)
 
-## 旧日支配者的低语
+## 旧日支配者的低语 - 20250315
 
 [![Fairy Lied - 旧日支配者的低语](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnML3ztegLVo)](https://www.youtube.com/watch?v=nML3ztegLVo)
 
@@ -48,7 +48,7 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - 旧日支配者的低语 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E6%97%A7%E6%97%A5%E6%94%AF%E9%85%8D%E8%80%85%E7%9A%84%E4%BD%8E%E8%AF%AD.gp)
 
-## 独角兽的梦
+## 独角兽的梦 - 20250510
 
 [![Fairy Lied - 独角兽的梦](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DU7D8v7i_QrE)](https://www.youtube.com/watch?v=U7D8v7i_QrE)
 
@@ -56,7 +56,7 @@ The following songs were composed collaboratively by our band members (guitarist
 
 [Fairy Lied - 独角兽的梦 - Guitar Pro File](https://github.com/shermanhung/shermanhung.github.io/blob/35fda03bc7741198f721fd75b0dcd0c43680c91b/files/%E7%8B%AC%E8%A7%92%E5%85%BD%E7%9A%84%E6%A2%A6.gp)
 
-## 原蛇的诱惑
+## 原蛇的诱惑 - 20250915
 
 [![Fairy Lied - 原蛇的诱惑](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwifQLl_9f6M)](https://www.youtube.com/watch?v=wifQLl_9f6M)
 
