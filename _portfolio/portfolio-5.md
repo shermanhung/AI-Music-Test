@@ -3,6 +3,16 @@ title: "Audio Projects"
 excerpt: "This folder includes audio-related projects with detailed explanations of their objectives and code implementations.<br/>" 
 collection: portfolio
 ---
+## Project Goal
+
+This project presents the design and implementation of a simple audio rendering pipeline that reconstructs the first two bars of Johann Sebastian Bach’s Invention No. 1 in C Major using pre-recorded audio samples.
+
+The provided dataset consists of two main components: a `samples/` directory containing short WAV recordings of individual musical notes, and a `music_data.txt` file that encodes the pitch and duration information for the piece. However, the data file contains several notational inconsistencies that must be identified and corrected before audio rendering can take place.
+
+In addition to the code implementation, detailed comments and documentation are provided to explain the processing steps and the nature of the corrections applied to the music data. The resulting output demonstrates a basic yet effective approach to reconstructing a musical passage from symbolic data using sample-based synthesis techniques.
+
+To access the full code, please visit this folder (https://drive.google.com/drive/folders/1-IxWroIc3-FuCdG1PrcINujfWXqDtTJE?usp=sharing) and check `proejct_code.ipynb`.
+
 
 ```python
 import numpy as np
@@ -24,6 +34,8 @@ from scipy.io import wavfile
 ## Step 1 — Map Audio Samples to Note Names
 
 Create a dictionary that maps musical note names (e.g., `"C4"`, `"D#5"`, `"R"`) to their corresponding WAV file paths in the `samples/` directory. This provides a direct lookup for each note during rendering.
+
+To identify the musical note from each audio sample, I used a pitch detection algorithm from the Python library librosa, which estimates the fundamental frequency (f₀) of a sound over time. The algorithm then calculates the median of these frequency values (in Hz) to obtain a stable representation of the dominant pitch, reducing the influence of noise and minor fluctuations. Finally, the resulting frequency (e.g., 261.63 Hz) is converted into its corresponding musical note (e.g., “C4”).
 
 
 ```python
@@ -71,19 +83,19 @@ def create_dict(sp_addr, inst_type):
 
 ```python
 # Create audio sample to musical note dictionary
-# SAMPLES_DIR = "samples"
-# sp_addr = '/content/drive/MyDrive/Colab Notebooks/tune_synthesis/' + SAMPLES_DIR + '/'
-# c_note_dict = create_dict(sp_addr, 'clairnet')
-# b_note_dict = create_dict(sp_addr, 'bass')
+SAMPLES_DIR = "samples"
+sp_addr = '/content/drive/MyDrive/Colab Notebooks/tune_synthesis/' + SAMPLES_DIR + '/'
+c_note_dict = create_dict(sp_addr, 'clairnet')
+b_note_dict = create_dict(sp_addr, 'bass')
 
 # Save dictionary to .pkl file
-# with open('/content/drive/MyDrive/Colab Notebooks/tune_synthesis/clarinet_note_dict.pkl', 'wb') as fp:
-#     pickle.dump(c_note_dict, fp)
-#     print('Clarinet dictionary saved successfully to file')
+with open('/content/drive/MyDrive/Colab Notebooks/tune_synthesis/clarinet_note_dict.pkl', 'wb') as fp:
+    pickle.dump(c_note_dict, fp)
+    print('Clarinet dictionary saved successfully to file')
 
-# with open('/content/drive/MyDrive/Colab Notebooks/tune_synthesis/bass_note_dict.pkl', 'wb') as fp:
-#     pickle.dump(b_note_dict, fp)
-#     print('Bass dictionary saved successfully to file')
+with open('/content/drive/MyDrive/Colab Notebooks/tune_synthesis/bass_note_dict.pkl', 'wb') as fp:
+    pickle.dump(b_note_dict, fp)
+    print('Bass dictionary saved successfully to file')
 ```
 
 
@@ -91,6 +103,8 @@ def create_dict(sp_addr, inst_type):
 c_note_dict = pd.read_pickle('/content/drive/MyDrive/Colab Notebooks/tune_synthesis/clarinet_note_dict.pkl')
 b_note_dict = pd.read_pickle('/content/drive/MyDrive/Colab Notebooks/tune_synthesis/bass_note_dict.pkl')
 ```
+
+
 
 ## Step 2 — Parse and Validate the Music Data File
 
@@ -229,12 +243,9 @@ combined = c_audio + b_audio
 combined /= np.max(np.abs(combined))
 
 # Save tracks
-sf.write("/content/drive/MyDrive/Colab Notebooks/bach_invention_output_clarinet.wav", c_audio, sr)
-sf.write("/content/drive/MyDrive/Colab Notebooks/bach_invention_output_bass.wav", b_audio, sr)
-sf.write("/content/drive/MyDrive/Colab Notebooks/bach_invention_output_combined.wav", combined, sr)
+sf.write("/content/drive/MyDrive/Colab Notebooks/tune_synthesis/bach_invention_output_clarinet.wav", c_audio, sr)
+sf.write("/content/drive/MyDrive/Colab Notebooks/tune_synthesis/bach_invention_output_bass.wav", b_audio, sr)
+sf.write("/content/drive/MyDrive/Colab Notebooks/tune_synthesis/bach_invention_output_combined.wav", combined, sr)
 ```
 
 
-```python
-
-```
